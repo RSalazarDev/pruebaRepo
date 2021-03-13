@@ -24,7 +24,6 @@ export class PerfilComponent implements OnInit {
   formEditar = this.fb.group({
     nombre:['', Validators.required],
     apellidos:['', Validators.required],
-    email:['', Validators.required],
     password:['', Validators.required],
     social:['', Validators.required],
     telefono:['', Validators.required]
