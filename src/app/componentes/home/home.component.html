@@ -1,0 +1,28 @@
+
+
+<main role="main">
+
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">ESPECIALIDADES</h1>
+        
+      </div>
+    </section>
+    <div class="container">
+        <ul class="list-unstyled card-columns">
+            <li class="card mt-3 py-3 px-4 bg-success" *ngFor='let especialidad of especialidades' style="height: 5rem;">
+                <div class="row">
+                    <div class="col-sm">
+                        <p>{{ especialidad.nombre }}</p>
+                    </div>
+                </div>
+            </li>
+          </ul>
+        
+        
+    </div>
+
+
+
+  </main>
+
