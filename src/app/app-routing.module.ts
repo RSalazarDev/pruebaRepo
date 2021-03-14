@@ -4,6 +4,7 @@ import { Medico } from './clases/medico';
 import { CitasComponent } from './componentes/citas/citas.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { MapaComponent } from './componentes/mapa/mapa.component';
 import { MedicosComponent } from './componentes/medicos/medicos.component';
 import { NavegacionComponent } from './componentes/navegacion/navegacion.component';
 import { PerfilComponent } from './componentes/perfil/perfil.component';
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: "perfil", component:PerfilComponent},
   {path: "registrar", component:RegistroComponent},
   {path: "medicos", component:MedicosComponent},
-  {path: "citas", component:CitasComponent}
+  {path: "citas", component:CitasComponent},
+  {path: "mapa", component:MapaComponent}
 ];
 
 @NgModule({

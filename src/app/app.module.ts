@@ -13,6 +13,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MedicosComponent } from './componentes/medicos/medicos.component';
 import { CitasComponent } from './componentes/citas/citas.component';
 import { TokenInterceptor } from './auth/token.interceptor';
+import { MapaComponent } from './componentes/mapa/mapa.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TokenInterceptor } from './auth/token.interceptor';
     PerfilComponent,
     RegistroComponent,
     MedicosComponent,
-    CitasComponent
+    CitasComponent,
+    MapaComponent
   ],
   imports: [
     BrowserModule,
