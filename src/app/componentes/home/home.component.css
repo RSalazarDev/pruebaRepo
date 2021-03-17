@@ -2,6 +2,12 @@ p{
     font-family: 'Oswald', sans-serif;
 }
 
-.jumbotron{
-    background-color: #bdbdbd;
+.card{
+    font-size: 22px;
 }
+
+h1{
+    font-family: 'Acme', sans-serif;
+}
+
+

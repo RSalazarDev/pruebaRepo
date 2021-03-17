@@ -1,7 +1,22 @@
-.navbar{
-    
-    
+  .navbar{
+      
+      
 
-font-family: 'Cormorant Unicase', serif;
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 1.3em;
 
+  }
+
+  a{
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 1.3em;
+  }
+        
+  .centro{
+  font-size: 1.7em;
+  }
+
+  .btn{
+    font-family: 'Acme', sans-serif;
+    font-size: 1.7em;
   }

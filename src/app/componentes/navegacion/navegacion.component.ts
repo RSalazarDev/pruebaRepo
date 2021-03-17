@@ -8,6 +8,8 @@ import { UsuariosService } from 'src/app/servicios/usuarios.service';
   styleUrls: ['./navegacion.component.css']
 })
 export class NavegacionComponent implements OnInit {
+  activo1: string = "active text-primary"
+  activo2: string = "active text-dark"
 
   constructor(private irHacia:Router,private servicioU:UsuariosService,) { }
 

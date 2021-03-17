@@ -1,3 +1,15 @@
 p{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.card{
+    font-size: 22px;
+}
+
+.header-title{
+    font-size: 22px;
+}
+
+h2{
+    font-family: 'Acme', sans-serif;
 }

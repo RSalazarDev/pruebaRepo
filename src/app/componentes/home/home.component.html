@@ -1,28 +1,33 @@
 
 
-<main role="main">
 
-    <section class="jumbotron text-center">
+
+
+  
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <main role="main">
+
+      <section class="">
+        <div class="container">
+          <h1 class="mb-4">INICIO</h1>    
+          <h1 class="mb-4">NUESTRAS ESPECIALIDADES</h1>    
+        </div>
+      </section>
       <div class="container">
-        <h1 class="jumbotron-heading">ESPECIALIDADES</h1>
-        
+          <ul class="list-unstyled card-columns">
+              <li class="card py-4 bg-white border-primary" *ngFor='let especialidad of especialidades' style="height: 5rem;">
+                  <div class="row">
+                      <div class="col-sm text-primary">
+                          <p>{{ especialidad.nombre }}</p>
+                      </div>
+                  </div>
+              </li>
+            </ul>
+          
+          
       </div>
-    </section>
-    <div class="container">
-        <ul class="list-unstyled card-columns">
-            <li class="card mt-3 py-3 px-4 bg-success" *ngFor='let especialidad of especialidades' style="height: 5rem;">
-                <div class="row">
-                    <div class="col-sm">
-                        <p>{{ especialidad.nombre }}</p>
-                    </div>
-                </div>
-            </li>
-          </ul>
-        
-        
-    </div>
-
-
-
-  </main>
-
+  
+  
+  
+    </main>
+  </div>

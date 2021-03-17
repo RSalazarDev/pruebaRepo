@@ -18,6 +18,7 @@ export class MapaComponent implements OnInit {
     .openPopup();
     const trozos = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
       maxZoom: 19
+      
     })
     trozos.addTo(this.mapa)
     
