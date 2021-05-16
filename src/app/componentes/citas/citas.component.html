@@ -16,8 +16,12 @@
                 <p>Estado</p>
             </div>
             <div class="col-sm header-title">
+                <p>Sala</p>
+            </div>
+            <div class="col-sm header-title">
                 <p>Operacion</p>
             </div>
+
         </div>
     </div>
     <hr>
@@ -31,6 +35,9 @@
             </div>
             <div class="col-sm">
                 <p>{{ cita.estado }}</p>
+            </div>
+            <div class="col-sm">
+                <p>{{ cita.sala.id }}</p>
             </div>
             <div class="col-sm">
                 <div><p (click)="borrarCita(cita)" class="btn btn-primary">Pincha para borrar la cita</p></div>
