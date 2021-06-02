@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Entity/Medico.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Controller/UsuarioController.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Entity/Especialidad.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Entity/Cita.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Repository/UsuarioRepository.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/composer.json</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Controller/CitaController.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Kernel.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Controller/EspecialidadController.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Entity/Usuario.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Entity/Sala.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Repository/EspecialidadRepository.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Repository/CitaRepository.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Repository/MedicoRepository.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Controller/MedicoController.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Controller/SalaController.php</file>
+            <file>file:/C:/Users/salaz/Desktop/Centro-Medico/api/api-centro/src/Security/JwtAuthenticator.php</file>
+        </group>
+    </open-files>
+</project-private>
