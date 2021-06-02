@@ -1,4 +1,14 @@
 label{
-    font-size: 2em;
+    font-size: 3em;
     font-family: 'Anton', sans-serif;
+}
+
+input{
+    font-size: 1em;
+    
+}
+
+form{
+    width: 40%;
+    margin: auto;
 }

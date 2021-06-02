@@ -16,6 +16,7 @@ obtenerCitas(): Observable<any>{
   return this.http.get(url)
 }
 
+
 registrar(cita: Cita): Observable<any> {
   return this.http.post(url, cita)
 }

@@ -10,6 +10,7 @@ import { UsuariosService } from 'src/app/servicios/usuarios.service';
 export class NavegacionComponent implements OnInit {
   activo1: string = "active text-primary"
   activo2: string = "active text-dark"
+  activo3: string = "active text-info"
 
   constructor(private irHacia:Router,private servicioU:UsuariosService,) { }
 

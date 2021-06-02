@@ -1,6 +1,7 @@
+
 <form [formGroup]="formularioLogin" class="mt-5" (submit)=login()>
   <p class="form-group  text-danger" *ngIf='error'>
-    Credenciales Invalidas</p> 
+    {{error}}</p> 
     <div class="form-group text-primary">
       <label for="exampleInputEmail1">Email</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduce tu email" formControlName="email">
@@ -12,3 +13,4 @@
     <input type="submit" class="btn btn-primary" value="Login">
     
   </form>
+

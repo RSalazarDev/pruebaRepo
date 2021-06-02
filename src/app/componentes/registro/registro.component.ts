@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { UsuariosService } from 'src/app/servicios/usuarios.service';
 
@@ -20,8 +20,8 @@ export class RegistroComponent implements OnInit {
     password:['', [Validators.required, Validators.minLength(4)]],
     nombre:['', Validators.required],
     apellidos:['', Validators.required],
-    telefono:['', Validators.required],
-    social:['', Validators.required],
+    telefono:['', Validators.required, Validators.maxLength(9),Validators.minLength(9)],
+    social:['', Validators.required, Validators.maxLength(12)],
     
     
   })
@@ -30,9 +30,11 @@ export class RegistroComponent implements OnInit {
     this.servicioUsuario.registrar(this.formularioRegistro.value).subscribe(
       respuesta => {
         console.log(respuesta)
-        this.irHacia.navigate(["/"])
+        this.irHacia.navigate(["/login"])
       },
       error => console.log(error)
+        
+      
     )
   }
 

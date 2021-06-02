@@ -13,9 +13,6 @@ export class PerfilComponent implements OnInit {
 
   constructor(private fb:FormBuilder, private servUsuario: UsuariosService, private irHacia:Router) { }
 
- 
-
-
   ngOnInit(): void {
     
   }
@@ -38,6 +35,20 @@ export class PerfilComponent implements OnInit {
       },
       error => {console.log(error)}
     )
+  }
+
+  borrar() : void{
+    
+    this.servUsuario.borrarUsuario().subscribe(
+      respuesta => {
+        console.log(respuesta)
+        this.irHacia.navigate(['/'])
+      },
+      error => {console.log(error)}
+    )
+
+    this.servUsuario.logOut();
+    
   }
 
 

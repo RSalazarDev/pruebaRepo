@@ -54,8 +54,12 @@
     </div>
     <div class="form-group">
         Tipo de cita
-        <select name="medico" [(ngModel)]="seleccionado " formControlName="medico">
+        <select name="medico" [(ngModel)]="seleccionado" formControlName="medico">
             <option [value]="medico.id" *ngFor="let medico of medicos">{{medico.especialidad}} ( {{medico.nombre}} {{medico.apellidos}} )</option>
+        </select>
+        Sala
+        <select name="sala"  formControlName="sala">
+            <option [value]="sala.id" *ngFor="let sala of salas">{{sala.id}}</option>
         </select>
       </div>
     <input type="submit" class="btn btn-primary" value="Pedir Cita">
